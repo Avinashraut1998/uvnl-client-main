@@ -73,7 +73,7 @@ const ConvertOpportunity = ({ opportunityId, kycId }) => {
                 </h3>
               </div>
               <div className="relative p-6 flex-auto overflow-y-auto max-h-96">
-                <form onSubmit={handleFormSubmit} enctype="multipart/form-data">
+                <form onSubmit={handleFormSubmit}>
                   <div className="mb-4">
                     <label
                       htmlFor="adharCardNumber"
